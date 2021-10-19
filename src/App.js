@@ -14,6 +14,7 @@ import PrivetRoute from './components/PrivetRoute/PrivetRoute';
 import Example from './components/pages/Home/Home/Example';
 import NoutFound from './components/pages/NotFound/NoutFound';
 import Dental from './components/pages/Services/Dental/Dental';
+import DentalServices from './components/pages/Services/DentalServices/DentalServices';
 
 
 {/*  <Link to="/home"><button className="rounded px-5 py-2 bg-pink-600 text-white mt-7 items-center"><i class="fas fa-arrow-left "></i> Home</button></Link>
@@ -27,6 +28,7 @@ function App() {
      <Switch>
        <Route exact path="/">
          <Home></Home>
+         <Dental></Dental>
        </Route>
        <Route path="/home">
        <Home></Home>
