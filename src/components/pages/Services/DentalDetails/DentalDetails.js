@@ -10,7 +10,7 @@ const DentalDetails = () => {
     const [detail, setDetail] = useState({})
     console.log('this',detail);
     useEffect(()=>{
-            fetch('/dental.json')
+            fetch('https://saikatsomir.github.io/ldhflsjf.github.io/detnal.json')
             .then(res => res.json())
             .then(data =>{
                 console.log('data',data)

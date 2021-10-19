@@ -3,7 +3,7 @@ import Rating from 'react-rating';
 import { Link } from 'react-router-dom';
 
 const DentalServices = ({service}) => {
-    const{_id, name, homeDetail, imgURL,sugesetion} = service
+    const{_id, name, homeDetail, imgURL, sugesetion} = service
     return (
         <div id="services">
      <div className="pt-6 pb-12 bg-green-50 pt-20 ">  
