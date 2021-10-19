@@ -1,0 +1,17 @@
+.detail{
+    display: flex;
+    
+}
+@media only screen and (max-width: 662px) {
+    .detail{
+       
+        display: block;
+        margin: 0px;
+        width: 100%;
+    }
+    .detail-details{
+        width: 100%;
+        text-align: center;
+    }
+  
+}
